@@ -1,0 +1,18 @@
+# Secrets (never commit)
+.env.local
+.env
+*.key
+cf-origin-key.pem
+alb-key.pem
+VAULT_TOKEN
+CF_TOKEN
+
+# Generated
+kubeconfig.yaml
+.terraform/
+*.tfstate*
+*.log
+
+# OS
+.DS_Store
+*.swp
